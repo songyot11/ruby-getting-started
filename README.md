@@ -52,7 +52,7 @@ The app will now be available on the Docker daemon IP on port 8080.
 To work with the local database and do migrations, you can open a shell:
 
     docker-compose run shell
-    bundle exec rake db:migrate
+    bundle exec rake db:migrateadadsad
 
 You can also use Docker to release to Heroku:
 
